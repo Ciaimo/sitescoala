@@ -1,0 +1,104 @@
+/* Import the general styles from styles.css */
+@import url('../Styles/styles.css');
+
+/* Additional styles for the Products page */
+body {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #ffcc00;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1em 2em;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product {
+    flex: 0 0 30%;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.product a {
+    display: inline-block;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    text-decoration: none;
+    background-color: #ffcc00;
+    color: #333;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Add any other styles specific to the Products page */
